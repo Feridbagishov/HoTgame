@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ba8b02, #181818);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.stats {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.moneyImg {
+    width: 150px; 
+    margin-bottom: 20px;
+    width: 150px; 
+    transition: transform 1s ease-in-out; 
+}
+
+
+
+.flipButton, .resetButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.flipButton:active, .resetButton:hover {
+    background-color: #000;
+    color: #FFf;
+}
